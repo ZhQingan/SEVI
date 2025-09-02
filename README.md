@@ -1,9 +1,10 @@
 ### Under Construction ...
+
 ---
 
 # Aligning Attention Distribution to Information Flow for Hallucination Mitigation in Large Vision-Language Models
 
-#### [Paper link](https://arxiv.org/abs/2505.14257)
+Inspired by the finding that visual information aggragates into semantic representations, we propose a two-stage optimization paradigm, **SEVI** (Semantic-Enhanced Visual Interpretation),  to align LVLM attention with information flow and reduce hallucinations. [Paper link](https://arxiv.org/abs/2505.14257)
 
 ---
 
@@ -36,7 +37,6 @@ python preprocess.py \
 ```
 
 ## Implementation
-
 
 #### Quick start
 
