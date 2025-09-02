@@ -1,11 +1,15 @@
-### Under Construction...
+### Under Construction ...
 ---
 
 # Aligning Attention Distribution to Information Flow for Hallucination Mitigation in Large Vision-Language Models
 
+#### [Paper link](https://arxiv.org/abs/2505.14257)
+
+---
+
 ## Setup
 
-### Environment
+#### Environment
 
 ```bash
 conda create -n sevi -y python=3.10
@@ -16,7 +20,7 @@ pip install -r requirements.txt
 
 **Note**: The dependencies are refered to LLaVA, InstructBLIP, Qwen2-VL-Instruct, Qwen2.5-Instruct. You could also easily setup the environment by following the instructions from official repositories.
 
-### Datasets
+#### Datasets
 
 All benchmarks need to be processed into structurally consistent JSON files.
 
@@ -31,10 +35,10 @@ python preprocess.py \
 --retrieve False
 ```
 
-## Evaluate SEVI
+## Implementation
 
 
-### Quick start
+#### Quick start
 
 We developed a shell script `scripts/eval_all.sh` that can execute all evaluation tasks end-to-end.
 
