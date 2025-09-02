@@ -1,0 +1,2 @@
+{"question_id": "Gengerative_Task", "question": "Please describe this image in detail.", "label": "", "image": "COCO_val2014_000000508962.jpg", "image_id": 508962, "another_image": "COCO_val2014_000000310196.jpg"}
+{"question_id": "Discriminative_task", "question": "Is there a snowboard in the image? Please answer this question with one word.", "label": "yes", "image": "COCO_val2014_000000310196.jpg", "image_id": 310196, "another_image": "COCO_val2014_000000508962.jpg"}
